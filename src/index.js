@@ -14,7 +14,7 @@ root.render(
   <React.StrictMode>
     <h1>Weather search engine</h1>
     <App />
-    <Weather/>
+    <Weather cityDefault="London"/>
     <Footer/>
   </React.StrictMode>
 );
