@@ -40,25 +40,28 @@ function App() {
          placeholder="Search for city"
          autoFocus="on"
          onChange={updateCity}
+         
        />
-       <input type="submit" value="Search" />
+       <input type="submit" value="Search" className="btn btn-primary" />
      </form>
    );
    if (value) {
      return (
        <div className="currentWeather">
-         {form}
-         <h3>{place}</h3>
-         <ul className="currentWeather">
-           <li>Temperature: {temperature}°C</li>
-           <li>Description: {description}</li>
-           <li>Humidity: {humidity} %</li>
-           <li>Wind: {wind} m/s</li>
-           <li>
-             {" "}
-             <img src={icon} />
-           </li>
-         </ul>
+         <div classname="container">
+           {form}
+           <h3>{place}</h3>
+           <ul className="currentWeather">
+             <li>Temperature: {temperature}°C</li>
+             <li>Description: {description}</li>
+             <li>Humidity: {humidity} %</li>
+             <li>Wind: {wind} m/s</li>
+             <li>
+               {" "}
+               <img src={icon} />
+             </li>
+           </ul>
+         </div>
        </div>
      );
    } else {
