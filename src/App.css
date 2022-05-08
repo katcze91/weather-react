@@ -1,4 +1,6 @@
 .App {
+  margin: 30px auto;
+  max-width: 800px;
   font-family: sans-serif;
   text-align: center;
 }
@@ -11,4 +13,8 @@
 }
 .currentWeather h3 {
   padding-left: 30px;
+}
+
+.App footer{
+  margin-bottom: 20px;
 }

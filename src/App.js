@@ -58,7 +58,7 @@ function App() {
              <li>Wind: {wind} m/s</li>
              <li>
                {" "}
-               <img src={icon} />
+               <img src={icon} alt="weather emoji" />
              </li>
            </ul>
          </div>

@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 // components takes precedence over default styles.
 import './index.css';
 import App from './App';
+import Weather from './Weather';
 import Footer from './Footer';
 import reportWebVitals from './reportWebVitals';
 
@@ -13,6 +14,7 @@ root.render(
   <React.StrictMode>
     <h1>Weather search engine</h1>
     <App />
+    <Weather/>
     <Footer/>
   </React.StrictMode>
 );
