@@ -1,0 +1,7 @@
+.Weatherinfo .float-left {
+  display: inline-block;
+  margin: 10px auto;
+  position: relative;
+top: 20px;
+  
+}

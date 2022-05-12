@@ -29,16 +29,20 @@
   padding: 10px 30px;
   margin-top: 5px;
 }
-.Weather img {
-  height: 80px;
-  width: 80px;
-  margin-right: 10px;
-  display: inline-block;
-}
+
 .Weather .temp {
   font-weight: bold;
   font-size: 50px;
+  margin-left: 20px;
+ 
 }
+#Weather canvas {
+  height: 200px;
+  width: 200px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
 .Weather .unit {
   position: relative;
   top: -24px;
