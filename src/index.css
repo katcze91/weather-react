@@ -15,4 +15,15 @@ code {
 h1 {
   font-size: 40px;
   padding-left: 15px;
+  color: rgb(169, 139, 99);
 }
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+

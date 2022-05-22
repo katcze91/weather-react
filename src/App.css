@@ -1,20 +1,11 @@
-.App {
-  margin: 30px auto;
-  max-width: 800px;
-  font-family: sans-serif;
-  text-align: center;
-}
-
-.currentWeather {
-  list-style-type: none;
+.container {
+  color: rgba(0, 0, 0, 0.747);
+  background-color: rgb(255, 255, 255);
+  opacity: 80%;
+  border-radius: 10px;
   display: block;
   margin: 0 auto;
-  padding: 20px;
-}
-.currentWeather h3 {
-  padding-left: 30px;
-}
-
-.App footer{
-  margin-bottom: 20px;
+  padding: 5px 10px;
+  max-width: 650px;
+  margin-top: 60px;
 }

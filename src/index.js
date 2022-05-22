@@ -5,14 +5,20 @@ import "bootstrap/dist/css/bootstrap.css";
 // components takes precedence over default styles.
 import "./index.css";
 import App from "./App";
+import clouds from "./video/clouds.mp4"
 
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <h1 className="text-center">Weather search engine</h1>
-    <App />
+    <div className="main">
+      <video className="videoTag" autoPlay loop muted>
+        <source src={clouds} type="video/mp4" />
+      </video>
+    
+      <App />
+    </div>
   </React.StrictMode>
 );
 
