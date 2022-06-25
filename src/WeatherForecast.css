@@ -1,8 +1,18 @@
 .WeatherForecast {
   text-align: center;
+ 
 }
 
 .WeatherForecast-temp-min {
   opacity: 40%;
   margin-left: 5px;
 }
+
+@media only screen and (max-width: 420px) {
+ 
+.col {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+  }

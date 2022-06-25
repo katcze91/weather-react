@@ -4,6 +4,7 @@
   max-width: 600px;
   padding: 16px;
   border-radius: 7px;
+  
 }
 
 .Weather ul {
@@ -11,6 +12,7 @@
 }
 .Weather h1 {
   font-size: 40px;
+  font-weight: bold;
   color: rgb(85, 85, 85);
   line-height: 29px;
   margin: 20px 0 10px 0;
@@ -31,3 +33,24 @@
 }
 
 
+@media only screen and (max-width: 420px) {
+ 
+.btn-primary {
+padding: 13px 18px;
+font-size: 12px;
+}
+ .searchbar {
+   padding: 8px 15px;
+   font-size: 15px;
+ }
+
+ .Weather h1 {
+  font-size: 35px;
+  color: rgb(85, 85, 85);
+
+}
+ 
+.Weather ul {
+  font-size: 12px;
+}
+  }
